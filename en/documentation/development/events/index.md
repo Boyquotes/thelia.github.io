@@ -77,6 +77,14 @@ eventsAddress:
         eventClass: "Thelia\\Core\\Event\\Address\\AddressEvent",
         eventClassApi: "/api/master/Thelia/Core/Event/Address/AddressEvent.html"
       }
+    - {
+        name: "action.defaultAddress",
+        const: "ADDRESS_DEFAULT",
+        desc: "",
+        eventClass: "Thelia\\Core\\Event\\Address\\AddressEvent",
+        eventClassApi: "/api/master/Thelia/Core/Event/Address/AddressEvent.html"
+      }
+ 
 eventsAdmin:
     - {
         name: "action.admin_logout",
